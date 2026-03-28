@@ -12,7 +12,6 @@ import utils.TestData;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-
 import static assertions.ApiAssertions.assertThat;
 
 @TestInstance(TestInstance.Lifecycle.PER_METHOD)
