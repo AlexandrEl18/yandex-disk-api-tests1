@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 import steps.FolderSteps;
 import utils.TestData;
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;

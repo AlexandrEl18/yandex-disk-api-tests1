@@ -91,7 +91,7 @@ public class FolderEdgeTest {
         String newName = folder + "_updated";
 
         steps.createFolder(folder);
-        createdFolders.add(newName); // будем удалять новую папку
+        createdFolders.add(newName);
         Response response = steps.updateFolderName(folder, newName);
         assertThat(response).statusCode(201);
 

@@ -59,7 +59,7 @@ public class FolderNegativeTest {
     void createExistingFolder() {
         String path = "test_" + TestData.folderName();
         steps.createFolder(path);
-        createdFolders.add(path); // чтобы потом удалить
+        createdFolders.add(path);
 
         Response response = steps.createFolder(path);
         assertThat(response).statusCode(409);
